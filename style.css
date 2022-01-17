@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Dongle&display=swap');
+
+html{
+    background-color: #e5e7eb;
+}
+
+body{
+    font-family: "Dongle", sans-serif;
+}
+
+.list-non-bullet{
+    list-style: none;
+    font-size: 30px;
+}
+
+.list-item-inline{
+    display: inline;
+    padding: 0.5rem 1.5rem;
+}
+
+.under1:hover{
+    text-decoration: underline;
+}
+
+.navigation{
+    background-color: #f87171;
+    border-radius: 5px;
+}
+
+.nav-pill{
+    text-align: right;
+}
+
+.nav-brand{
+    font-size: 50px;
+}
+
+.links{
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    color: black;
+}
+
+.main-img{
+    max-width: 80%;
+    max-height: 400px;
+    display: block;
+    margin: auto;
+}
+
+.heading{
+    text-align: center;
+    padding-top: 1rem;
+    font-size: 40px;
+}
+
+.heading1{
+    text-align: center;
+}
+
+.about{
+    font-size: 35px;
+    text-align: center;
+    max-width: 600px;
+    padding-left: 450px;
+    padding-right: 450px;
+}
+
+.work{
+    font-size: 35px;
+    text-align: center;
+    max-width: 600px;
+    padding-left: 450px;
+    padding-right: 450px;
+}
+
+.box{
+    margin-bottom: 2rem;
+    border: 1px solid;
+    border-radius: 5px;
+    color: black;
+    margin: 1rem;
+    padding: 0px 10px 0px 10px;
+}
+
+.info{
+    font-size: 35px;
+    text-align: center;
+}
+
+.btn{
+    width: 200px;
+    height: 50px;
+    border: none;
+    color: black;
+    border-radius: 5px;
+    transition: ease-out 0.3s;
+    font-family: "Dongle", sans-serif;
+    font-size: 30px;
+    outline: none;
+    border: 3px solid #f87171;
+    position: relative;
+    z-index: 1;
+}
+
+.btn:hover{
+    color: #fff;
+    cursor: pointer;
+}
+
+.btn:before{
+    transition: 0.5s all ease;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    right: 50%;
+    bottom: 0;
+    opacity: 0;
+    content: "";
+    background-color: #f87171;
+}
+
+.btn:hover:before{
+    transition: 0.5s all ease;
+    left: 0;
+    right: 0;
+    opacity: 1;
+    z-index: -1;
+}
+
+.socials img{
+    width: 50px;
+    height: 50px;
+}
+
+.social-link{
+   list-style: none; 
+}
+
+.social-inline{
+    display: inline;
+    padding: 10px;
+}
+
+.g-img{
+    padding-left: 650px;
+}
